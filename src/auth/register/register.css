@@ -1,0 +1,13 @@
+.file-conatiner{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/8347500/pexels-photo-8347500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+.components-container{
+    height: 92%;
+    width: 85%;
+    border-radius: 2%;
+}
