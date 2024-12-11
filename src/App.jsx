@@ -1,13 +1,17 @@
 import React from 'react'
 
 import { BrowserRouter, Routes, Route } from "react-router"
-import Home from './components/ui/Home'
+import Home from './components/Home'
+import Header from './components/Header'
+
+
 function App() {
   return (
     <BrowserRouter>
-      {/* <Header/> */}
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
         {/* <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/user" element={<User />} />
