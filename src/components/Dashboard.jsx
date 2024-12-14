@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 // import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
 
@@ -14,7 +14,6 @@ import React from 'react'
 //     SidebarProvider,
 // } from "@/components/ui/sidebar"
 
-// Menu items.
 // const items = [
 //     {
 //         title: "Home",
@@ -45,7 +44,7 @@ import React from 'react'
 
 
 function Dashboard() {
-    return (
+    // return (
         // <SidebarProvider>
         //     <Sidebar>
         //         <SidebarContent>
@@ -69,9 +68,9 @@ function Dashboard() {
         //         </SidebarContent>
         //     </Sidebar>
         // </SidebarProvider>
-        <h1>This Dashboard</h1>
+        // <h1>This Dashboard</h1>
 
-    )
+    // )
 }
 
 export default Dashboard
