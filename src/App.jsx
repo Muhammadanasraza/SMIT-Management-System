@@ -18,8 +18,8 @@ function App() {
         
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/trainer" element={<Traineer/>} />
-        {/* <Route path="/login" element={<Login />} />
-        <Route path="/admin" element={<Admin />} />
+         {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/admin" element={<Admin />} />
         <Route path="/user" element={<User />} />
         <Route path="/teacher" element={<Teacher />} /> */}
       </Routes>
