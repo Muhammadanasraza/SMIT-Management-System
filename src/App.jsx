@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import Dashboard from './components/Dashboard'
 import { Button } from './components/ui/button'
-import Traineer from './traineer/Traineer'
+import Traineer from './components/Trainer'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         
         <Route path="/dashboard" element={<Dashboard/>} />
-        <Route path="/traineer" element={<Traineer/>} />
+        <Route path="/trainer" element={<Traineer/>} />
         {/* <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/user" element={<User />} />

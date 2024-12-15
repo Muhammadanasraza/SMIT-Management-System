@@ -74,9 +74,9 @@ const Header = () => {
 
                     </SheetTitle>
                   </a>
-                  <a href="/dachboard">
+                  <a href="/trainer">
                     <SheetTitle className='border-b-2 pt-1 flex hover:text-zinc-600'>
-                      Setting
+                      Trainer
                       <DropdownMenuShortcut>⇧⌘</DropdownMenuShortcut>
 
                     </SheetTitle>
